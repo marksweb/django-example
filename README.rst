@@ -1,10 +1,13 @@
-# django-example
+django-example
+--------------
 
 This is an example django project started with `uv`.
 
-## Features
+Features
+--------
 
-### Clear cache view
+Clear cache view
+================
 
 It's possible to clear the cache from the admin using a custom admin view.
 This is achieved using a subclass of ``AdminSite``. See ``core.admin.MyAdminSite``
